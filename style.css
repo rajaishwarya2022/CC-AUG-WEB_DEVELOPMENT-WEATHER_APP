@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .header{
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  body{
+    font-family: "Nunito",sans-serif;
+    background: url(img/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 1537px 750px;
+  }
+  
+  .input{
+    text-align: center;
+    margin: 100px auto;
+  }
+  
+  input[type="submit"]{
+    padding: 15px 30px;
+    background: #e7e7e777;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px rgb(70, 166, 204);
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  
+  .input input[type="text"]{
+    width: 600px;
+    height: 55px;
+    padding: 5px 10px;
+    background: #e7e7e777;
+    border: none;
+    border-radius: 5px;
+    font-family: "Nunito",sans-serif;
+    font-weight:bold;
+    font-size: 20px;
+  }
+  ::placeholder{
+    color: black;
+  }
+  .card{
+    width: 50%;
+    background: #e7e7e777;
+    height: 40vh;
+    margin: 50px auto;
+    border-radius: 8px;
+  }
+  
+  
+  .close{
+    float: right;
+    margin-top: -2px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .card h1{
+    padding: 25px 0;
+    text-align: center;
+  }
+  
+  .card p{
+    text-align: center;
+    margin:40px 0;
+    font-size:20px;
+  }
